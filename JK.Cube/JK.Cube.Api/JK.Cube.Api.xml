@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>JK.Cube.Api</name>
+    </assembly>
+    <members>
+        <member name="T:JK.Cube.Api.Controllers.CubeController">
+            <summary>
+            Api service access cube functionalities
+            </summary>
+        </member>
+    </members>
+</doc>

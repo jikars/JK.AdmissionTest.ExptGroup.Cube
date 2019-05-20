@@ -1,0 +1,9 @@
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\bin\Debug\netstandard2.0\JK.Cube.Application.deps.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\bin\Debug\netstandard2.0\JK.Cube.Application.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\bin\Debug\netstandard2.0\JK.Cube.Application.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\obj\Debug\netstandard2.0\JK.Cube.Application.csprojAssemblyReference.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\obj\Debug\netstandard2.0\JK.Cube.Application.csproj.CoreCompileInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\obj\Debug\netstandard2.0\JK.Cube.Application.AssemblyInfoInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\obj\Debug\netstandard2.0\JK.Cube.Application.AssemblyInfo.cs
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\obj\Debug\netstandard2.0\JK.Cube.Application.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application\obj\Debug\netstandard2.0\JK.Cube.Application.pdb

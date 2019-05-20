@@ -1,0 +1,17 @@
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Cube.Api.deps.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Cube.Api.runtimeconfig.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Cube.Api.runtimeconfig.dev.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Cube.Api.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Cube.Api.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Core.Archytecture.IoC.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\bin\Debug\netcoreapp2.1\JK.Core.Archytecture.IoC.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.csprojAssemblyReference.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.csproj.CoreCompileInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.RazorAssemblyInfo.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.RazorAssemblyInfo.cs
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.AssemblyInfoInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.AssemblyInfo.cs
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.RazorTargetAssemblyInfo.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.csproj.CopyComplete
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Api\obj\Debug\netcoreapp2.1\JK.Cube.Api.pdb

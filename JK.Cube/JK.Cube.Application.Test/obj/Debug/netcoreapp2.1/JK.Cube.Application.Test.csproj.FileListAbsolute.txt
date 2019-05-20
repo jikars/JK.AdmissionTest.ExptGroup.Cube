@@ -1,0 +1,14 @@
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\JK.Cube.Application.Test.deps.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\JK.Cube.Application.Test.runtimeconfig.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\JK.Cube.Application.Test.runtimeconfig.dev.json
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\JK.Cube.Application.Test.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\bin\Debug\netcoreapp2.1\JK.Cube.Application.Test.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\obj\Debug\netcoreapp2.1\JK.Cube.Application.Test.csprojAssemblyReference.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\obj\Debug\netcoreapp2.1\JK.Cube.Application.Test.csproj.CoreCompileInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\obj\Debug\netcoreapp2.1\JK.Cube.Application.Test.AssemblyInfoInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\obj\Debug\netcoreapp2.1\JK.Cube.Application.Test.AssemblyInfo.cs
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\obj\Debug\netcoreapp2.1\JK.Cube.Application.Test.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Application.Test\obj\Debug\netcoreapp2.1\JK.Cube.Application.Test.pdb

@@ -4,14 +4,14 @@
     "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj": {
+    "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj",
-        "projectName": "JK.Cube.Infrastructure",
-        "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj",
+        "projectUniqueName": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj",
+        "projectName": "JK.Core.Architecture.DDD",
+        "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\obj\\",
+        "outputPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -43,6 +43,129 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\JK.Cube.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\JK.Cube.Domain.csproj",
+        "projectName": "JK.Cube.Domain",
+        "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\JK.Cube.Domain.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj": {
+                "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj",
+        "projectName": "JK.Cube.Infrastructure",
+        "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj": {
+                "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj"
+              },
+              "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\JK.Cube.Domain.csproj": {
+                "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\JK.Cube.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "LiteDB": {
+              "target": "Package",
+              "version": "[4.1.4, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

@@ -1,4 +1,4 @@
-﻿using JK.Core.Archytecture.IoC;
+﻿using JK.Core.Architecture.IoC;
 using System;
 
 namespace JK.Cube.Api._IoC

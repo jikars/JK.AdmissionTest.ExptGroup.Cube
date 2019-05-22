@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "LiteDB/4.1.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -4391,19 +4404,75 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "JK.Core.Archytecture.IoC/1.0.0": {
+      "JK.Core.Architecture.DDD/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/JK.Core.Archytecture.IoC.dll": {}
+          "bin/placeholder/JK.Core.Architecture.DDD.dll": {}
         },
         "runtime": {
-          "bin/placeholder/JK.Core.Archytecture.IoC.dll": {}
+          "bin/placeholder/JK.Core.Architecture.DDD.dll": {}
+        }
+      },
+      "JK.Core.Architecture.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/JK.Core.Architecture.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JK.Core.Architecture.IoC.dll": {}
+        }
+      },
+      "JK.Cube.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "JK.Core.Architecture.DDD": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JK.Cube.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JK.Cube.Domain.dll": {}
+        }
+      },
+      "JK.Cube.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "JK.Core.Architecture.DDD": "1.0.0",
+          "JK.Cube.Domain": "1.0.0",
+          "LiteDB": "4.1.4"
+        },
+        "compile": {
+          "bin/placeholder/JK.Cube.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JK.Cube.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
+    "LiteDB/4.1.4": {
+      "sha512": "g4g9JlHzRBZl+Gd2UbiRdszZ7t8wozU2wX7+5xY5uE79tmcgcDhha+ubAP84G1VLbwQmhBGCzRfIx+epLmJciQ==",
+      "type": "package",
+      "path": "litedb/4.1.4",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net35/LiteDB.dll",
+        "lib/net35/LiteDB.xml",
+        "lib/net40/LiteDB.dll",
+        "lib/net40/LiteDB.xml",
+        "lib/netstandard1.3/LiteDB.dll",
+        "lib/netstandard1.3/LiteDB.xml",
+        "lib/netstandard2.0/LiteDB.dll",
+        "lib/netstandard2.0/LiteDB.xml",
+        "litedb.4.1.4.nupkg.sha512",
+        "litedb.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -11901,15 +11970,31 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "JK.Core.Archytecture.IoC/1.0.0": {
+    "JK.Core.Architecture.DDD/1.0.0": {
       "type": "project",
-      "path": "../../../Propios/Cores/JK.Core.Archytecture.IoC/JK.Core.Archytecture.IoC.csproj",
-      "msbuildProject": "../../../Propios/Cores/JK.Core.Archytecture.IoC/JK.Core.Archytecture.IoC.csproj"
+      "path": "../JK.Cores/JK.Core.Architecture.DDD/JK.Core.Architecture.DDD.csproj",
+      "msbuildProject": "../JK.Cores/JK.Core.Architecture.DDD/JK.Core.Architecture.DDD.csproj"
+    },
+    "JK.Core.Architecture.IoC/1.0.0": {
+      "type": "project",
+      "path": "../JK.Cores/JK.Core.Architecture.IoC/JK.Core.Architecture.IoC.csproj",
+      "msbuildProject": "../JK.Cores/JK.Core.Architecture.IoC/JK.Core.Architecture.IoC.csproj"
+    },
+    "JK.Cube.Domain/1.0.0": {
+      "type": "project",
+      "path": "../JK.Cube.Domain/JK.Cube.Domain.csproj",
+      "msbuildProject": "../JK.Cube.Domain/JK.Cube.Domain.csproj"
+    },
+    "JK.Cube.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../JK.Cube.Infrastructure/JK.Cube.Infrastructure.csproj",
+      "msbuildProject": "../JK.Cube.Infrastructure/JK.Cube.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "JK.Core.Archytecture.IoC >= 1.0.0",
+      "JK.Core.Architecture.IoC >= 1.0.0",
+      "JK.Cube.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -11949,8 +12034,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Propios\\Cores\\JK.Core.Archytecture.IoC\\JK.Core.Archytecture.IoC.csproj": {
-              "projectPath": "D:\\Propios\\Cores\\JK.Core.Archytecture.IoC\\JK.Core.Archytecture.IoC.csproj"
+            "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.IoC\\JK.Core.Architecture.IoC.csproj": {
+              "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.IoC\\JK.Core.Architecture.IoC.csproj"
+            },
+            "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj": {
+              "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj"
             }
           }
         }

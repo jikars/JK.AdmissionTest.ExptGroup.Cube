@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Propios\Cores\JK.Core.Archytecture.IoC\JK.Core.Archytecture.IoC.csproj" />
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.IoC\JK.Core.Architecture.IoC.csproj" />
+    <ProjectReference Include="..\JK.Cube.Infrastructure\JK.Cube.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

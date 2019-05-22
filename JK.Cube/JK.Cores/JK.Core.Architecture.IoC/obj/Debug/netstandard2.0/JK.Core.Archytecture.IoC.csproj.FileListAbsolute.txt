@@ -1,0 +1,9 @@
+D:\Propios\Cores\JK.Core.Archytecture.IoC\obj\Debug\netstandard2.0\JK.Core.Archytecture.IoC.csprojAssemblyReference.cache
+D:\Propios\Cores\JK.Core.Archytecture.IoC\obj\Debug\netstandard2.0\JK.Core.Archytecture.IoC.csproj.CoreCompileInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.IoC\obj\Debug\netstandard2.0\JK.Core.Archytecture.IoC.AssemblyInfoInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.IoC\obj\Debug\netstandard2.0\JK.Core.Archytecture.IoC.AssemblyInfo.cs
+D:\Propios\Cores\JK.Core.Archytecture.IoC\bin\Debug\netstandard2.0\JK.Core.Architecture.IoC.deps.json
+D:\Propios\Cores\JK.Core.Archytecture.IoC\bin\Debug\netstandard2.0\JK.Core.Architecture.IoC.dll
+D:\Propios\Cores\JK.Core.Archytecture.IoC\bin\Debug\netstandard2.0\JK.Core.Architecture.IoC.pdb
+D:\Propios\Cores\JK.Core.Archytecture.IoC\obj\Debug\netstandard2.0\JK.Core.Architecture.IoC.dll
+D:\Propios\Cores\JK.Core.Archytecture.IoC\obj\Debug\netstandard2.0\JK.Core.Architecture.IoC.pdb

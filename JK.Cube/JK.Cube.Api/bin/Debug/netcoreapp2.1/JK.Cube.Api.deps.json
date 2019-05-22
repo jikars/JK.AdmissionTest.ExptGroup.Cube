@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "31bd07040ae1205f10e846c38fb1f17e0b58f0ff"
+    "signature": "172f2873e8f5d3c7f23827f6e8f3f82cc5797bc9"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,8 @@
     ".NETCoreApp,Version=v2.1": {
       "JK.Cube.Api/1.0.0": {
         "dependencies": {
-          "JK.Core.Archytecture.IoC": "1.0.0",
+          "JK.Core.Architecture.IoC": "1.0.0",
+          "JK.Cube.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -35,6 +36,21 @@
         },
         "compile": {
           "JK.Cube.Api.dll": {}
+        }
+      },
+      "LiteDB/4.1.4": {
+        "dependencies": {
+          "System.Reflection": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiteDB.dll": {
+            "assemblyVersion": "4.1.4.0",
+            "fileVersion": "4.1.4.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/LiteDB.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -274,12 +290,44 @@
           "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
-      "JK.Core.Archytecture.IoC/1.0.0": {
+      "JK.Core.Architecture.DDD/1.0.0": {
         "runtime": {
-          "JK.Core.Archytecture.IoC.dll": {}
+          "JK.Core.Architecture.DDD.dll": {}
         },
         "compile": {
-          "JK.Core.Archytecture.IoC.dll": {}
+          "JK.Core.Architecture.DDD.dll": {}
+        }
+      },
+      "JK.Core.Architecture.IoC/1.0.0": {
+        "runtime": {
+          "JK.Core.Architecture.IoC.dll": {}
+        },
+        "compile": {
+          "JK.Core.Architecture.IoC.dll": {}
+        }
+      },
+      "JK.Cube.Domain/1.0.0": {
+        "dependencies": {
+          "JK.Core.Architecture.DDD": "1.0.0"
+        },
+        "runtime": {
+          "JK.Cube.Domain.dll": {}
+        },
+        "compile": {
+          "JK.Cube.Domain.dll": {}
+        }
+      },
+      "JK.Cube.Infrastructure/1.0.0": {
+        "dependencies": {
+          "JK.Core.Architecture.DDD": "1.0.0",
+          "JK.Cube.Domain": "1.0.0",
+          "LiteDB": "4.1.4"
+        },
+        "runtime": {
+          "JK.Cube.Infrastructure.dll": {}
+        },
+        "compile": {
+          "JK.Cube.Infrastructure.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3230,6 +3278,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "LiteDB/4.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g4g9JlHzRBZl+Gd2UbiRdszZ7t8wozU2wX7+5xY5uE79tmcgcDhha+ubAP84G1VLbwQmhBGCzRfIx+epLmJciQ==",
+      "path": "litedb/4.1.4",
+      "hashPath": "litedb.4.1.4.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
@@ -3314,7 +3369,22 @@
       "path": "swashbuckle.aspnetcore.swaggerui/4.0.1",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512"
     },
-    "JK.Core.Archytecture.IoC/1.0.0": {
+    "JK.Core.Architecture.DDD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JK.Core.Architecture.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JK.Cube.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JK.Cube.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

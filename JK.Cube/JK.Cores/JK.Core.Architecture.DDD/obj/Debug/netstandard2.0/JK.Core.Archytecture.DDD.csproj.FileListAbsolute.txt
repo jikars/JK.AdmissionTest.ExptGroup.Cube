@@ -1,0 +1,9 @@
+D:\Propios\Cores\JK.Core.Archytecture.DDD\obj\Debug\netstandard2.0\JK.Core.Archytecture.DDD.csprojAssemblyReference.cache
+D:\Propios\Cores\JK.Core.Archytecture.DDD\obj\Debug\netstandard2.0\JK.Core.Archytecture.DDD.csproj.CoreCompileInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.DDD\obj\Debug\netstandard2.0\JK.Core.Archytecture.DDD.AssemblyInfoInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.DDD\obj\Debug\netstandard2.0\JK.Core.Archytecture.DDD.AssemblyInfo.cs
+D:\Propios\Cores\JK.Core.Archytecture.DDD\bin\Debug\netstandard2.0\JK.Core.Architecture.DDD.deps.json
+D:\Propios\Cores\JK.Core.Archytecture.DDD\bin\Debug\netstandard2.0\JK.Core.Architecture.DDD.dll
+D:\Propios\Cores\JK.Core.Archytecture.DDD\bin\Debug\netstandard2.0\JK.Core.Architecture.DDD.pdb
+D:\Propios\Cores\JK.Core.Archytecture.DDD\obj\Debug\netstandard2.0\JK.Core.Architecture.DDD.dll
+D:\Propios\Cores\JK.Core.Archytecture.DDD\obj\Debug\netstandard2.0\JK.Core.Architecture.DDD.pdb

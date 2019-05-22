@@ -1,0 +1,17 @@
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\bin\Debug\netstandard2.0\JK.Core.Architecture.CQRS.deps.json
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\bin\Debug\netstandard2.0\JK.Core.Architecture.CQRS.dll
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\bin\Debug\netstandard2.0\JK.Core.Architecture.CQRS.pdb
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.csprojAssemblyReference.cache
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.csproj.CoreCompileInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.AssemblyInfoInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.AssemblyInfo.cs
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.dll
+D:\Propios\Cores\JK.Core.Archytecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\bin\Debug\netstandard2.0\JK.Core.Architecture.CQRS.deps.json
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\bin\Debug\netstandard2.0\JK.Core.Architecture.CQRS.dll
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\bin\Debug\netstandard2.0\JK.Core.Architecture.CQRS.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.csproj.CoreCompileInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.AssemblyInfoInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.AssemblyInfo.cs
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.dll
+D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.CQRS\obj\Debug\netstandard2.0\JK.Core.Architecture.CQRS.pdb

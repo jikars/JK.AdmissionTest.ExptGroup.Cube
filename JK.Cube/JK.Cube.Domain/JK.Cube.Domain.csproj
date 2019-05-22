@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Propios\Cores\JK.Core.Archytecture.DDD\JK.Core.Archytecture.DDD.csproj" />
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.DDD\JK.Core.Architecture.DDD.csproj" />
   </ItemGroup>
 
 </Project>

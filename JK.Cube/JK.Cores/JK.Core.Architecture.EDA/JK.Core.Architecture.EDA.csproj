@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>JK.Core.Architecture.EDA</AssemblyName>
+    <RootNamespace>JK.Core.Architecture.EDA</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JK.Core.Architecture.IoC\JK.Core.Architecture.IoC.csproj" />
+  </ItemGroup>
+
+</Project>

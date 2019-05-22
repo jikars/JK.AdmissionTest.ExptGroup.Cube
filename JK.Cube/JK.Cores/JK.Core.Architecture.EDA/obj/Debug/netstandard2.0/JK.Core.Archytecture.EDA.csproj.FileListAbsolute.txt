@@ -1,0 +1,12 @@
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Archytecture.EDA.csprojAssemblyReference.cache
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Archytecture.EDA.csproj.CoreCompileInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Archytecture.EDA.AssemblyInfoInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Archytecture.EDA.AssemblyInfo.cs
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Archytecture.EDA.csproj.CopyComplete
+D:\Propios\Cores\JK.Core.Archytecture.EDA\bin\Debug\netstandard2.0\JK.Core.Architecture.EDA.deps.json
+D:\Propios\Cores\JK.Core.Archytecture.EDA\bin\Debug\netstandard2.0\JK.Core.Architecture.EDA.dll
+D:\Propios\Cores\JK.Core.Archytecture.EDA\bin\Debug\netstandard2.0\JK.Core.Architecture.EDA.pdb
+D:\Propios\Cores\JK.Core.Archytecture.EDA\bin\Debug\netstandard2.0\JK.Core.Architecture.IoC.dll
+D:\Propios\Cores\JK.Core.Archytecture.EDA\bin\Debug\netstandard2.0\JK.Core.Architecture.IoC.pdb
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Architecture.EDA.dll
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Debug\netstandard2.0\JK.Core.Architecture.EDA.pdb

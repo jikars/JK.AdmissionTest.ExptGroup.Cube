@@ -1,0 +1,6 @@
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Release\netstandard2.0\JK.Core.Archytecture.EDA.csprojAssemblyReference.cache
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Release\netstandard2.0\JK.Core.Archytecture.EDA.csproj.CoreCompileInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Release\netstandard2.0\JK.Core.Archytecture.EDA.AssemblyInfoInputs.cache
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Release\netstandard2.0\JK.Core.Archytecture.EDA.AssemblyInfo.cs
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Release\netstandard2.0\JK.Core.Archytecture.EDA.dll
+D:\Propios\Cores\JK.Core.Archytecture.EDA\obj\Release\netstandard2.0\JK.Core.Archytecture.EDA.pdb

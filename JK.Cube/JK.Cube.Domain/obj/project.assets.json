@@ -26,14 +26,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "JK.Core.Archytecture.DDD/1.0.0": {
+      "JK.Core.Architecture.DDD/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/JK.Core.Archytecture.DDD.dll": {}
+          "bin/placeholder/JK.Core.Architecture.DDD.dll": {}
         },
         "runtime": {
-          "bin/placeholder/JK.Core.Archytecture.DDD.dll": {}
+          "bin/placeholder/JK.Core.Architecture.DDD.dll": {}
         }
       }
     }
@@ -181,15 +181,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "JK.Core.Archytecture.DDD/1.0.0": {
+    "JK.Core.Architecture.DDD/1.0.0": {
       "type": "project",
-      "path": "../../../Propios/Cores/JK.Core.Archytecture.DDD/JK.Core.Archytecture.DDD.csproj",
-      "msbuildProject": "../../../Propios/Cores/JK.Core.Archytecture.DDD/JK.Core.Archytecture.DDD.csproj"
+      "path": "../JK.Cores/JK.Core.Architecture.DDD/JK.Core.Architecture.DDD.csproj",
+      "msbuildProject": "../JK.Cores/JK.Core.Architecture.DDD/JK.Core.Architecture.DDD.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "JK.Core.Archytecture.DDD >= 1.0.0",
+      "JK.Core.Architecture.DDD >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -226,8 +226,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj": {
-              "projectPath": "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj"
+            "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj": {
+              "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj"
             }
           }
         }

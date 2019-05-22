@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>JK.Core.Architecture.IoC</AssemblyName>
+    <RootNamespace>JK.Core.Architecture.IoC</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Nuget\**" />
+    <EmbeddedResource Remove="Nuget\**" />
+    <None Remove="Nuget\**" />
+  </ItemGroup>
+
+</Project>

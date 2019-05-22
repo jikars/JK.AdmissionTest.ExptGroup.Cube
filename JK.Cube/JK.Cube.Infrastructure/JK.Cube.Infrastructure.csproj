@@ -4,4 +4,13 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="4.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.DDD\JK.Core.Architecture.DDD.csproj" />
+    <ProjectReference Include="..\JK.Cube.Domain\JK.Cube.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

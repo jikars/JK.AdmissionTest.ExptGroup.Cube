@@ -4,14 +4,14 @@
     "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Domain\\JK.Cube.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj": {
+    "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj",
-        "projectName": "JK.Core.Archytecture.DDD",
-        "projectPath": "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj",
+        "projectUniqueName": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj",
+        "projectName": "JK.Core.Architecture.DDD",
+        "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\obj\\",
+        "outputPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj": {
-                "projectPath": "D:\\Propios\\Cores\\JK.Core.Archytecture.DDD\\JK.Core.Archytecture.DDD.csproj"
+              "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj": {
+                "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.DDD\\JK.Core.Architecture.DDD.csproj"
               }
             }
           }

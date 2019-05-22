@@ -7,3 +7,8 @@ D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\obj\Debug\netstandard2.0\JK.Cube
 D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\obj\Debug\netstandard2.0\JK.Cube.Infrastructure.AssemblyInfo.cs
 D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\obj\Debug\netstandard2.0\JK.Cube.Infrastructure.dll
 D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\obj\Debug\netstandard2.0\JK.Cube.Infrastructure.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\bin\Debug\netstandard2.0\JK.Core.Architecture.DDD.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\bin\Debug\netstandard2.0\JK.Cube.Domain.dll
+D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\bin\Debug\netstandard2.0\JK.Core.Architecture.DDD.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\bin\Debug\netstandard2.0\JK.Cube.Domain.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Infrastructure\obj\Debug\netstandard2.0\JK.Cube.Infrastructure.csproj.CopyComplete

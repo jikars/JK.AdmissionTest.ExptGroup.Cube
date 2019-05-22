@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>JK.Core.Architecture.CQRS</AssemblyName>
+    <RootNamespace>JK.Core.Architecture.CQRS</RootNamespace>
+  </PropertyGroup>
+
+</Project>

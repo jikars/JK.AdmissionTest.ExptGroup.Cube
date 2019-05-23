@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JK.Cube.Api", "JK.Cube.Api\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JK.Cube.Domain.Test", "JK.Cube.Domain.Test\JK.Cube.Domain.Test.csproj", "{A759F5B5-A2BD-4D54-AF15-8E91F84CDE25}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JK.Cube.Application.Test", "JK.Cube.Application.Test\JK.Cube.Application.Test.csproj", "{A0D294E1-3B7F-4852-BAF7-82E6871E6AC8}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JK.Core.Architecture.CQRS", "JK.Cores\JK.Core.Architecture.CQRS\JK.Core.Architecture.CQRS.csproj", "{1C2B4099-2368-48A0-9CC5-AEEA54EC558A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JK.Core.Architecture.DDD", "JK.Cores\JK.Core.Architecture.DDD\JK.Core.Architecture.DDD.csproj", "{9F02B51F-71F5-41B4-B33E-7A96B3627066}"
@@ -49,10 +47,6 @@ Global
 		{A759F5B5-A2BD-4D54-AF15-8E91F84CDE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A759F5B5-A2BD-4D54-AF15-8E91F84CDE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A759F5B5-A2BD-4D54-AF15-8E91F84CDE25}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A0D294E1-3B7F-4852-BAF7-82E6871E6AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0D294E1-3B7F-4852-BAF7-82E6871E6AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0D294E1-3B7F-4852-BAF7-82E6871E6AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0D294E1-3B7F-4852-BAF7-82E6871E6AC8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1C2B4099-2368-48A0-9CC5-AEEA54EC558A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1C2B4099-2368-48A0-9CC5-AEEA54EC558A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C2B4099-2368-48A0-9CC5-AEEA54EC558A}.Release|Any CPU.ActiveCfg = Release|Any CPU

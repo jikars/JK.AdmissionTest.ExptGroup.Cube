@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "172f2873e8f5d3c7f23827f6e8f3f82cc5797bc9"
+    "signature": "094de3713a50e0ff7c30a3802a4be9131e6d628b"
   },
   "compilationOptions": {
     "defines": [
@@ -24,7 +24,11 @@
     ".NETCoreApp,Version=v2.1": {
       "JK.Cube.Api/1.0.0": {
         "dependencies": {
+          "AutoMapper": "8.1.0",
+          "JK.Core.Architecture.CQRS": "1.0.0",
+          "JK.Core.Architecture.EDA": "1.0.0",
           "JK.Core.Architecture.IoC": "1.0.0",
+          "JK.Cube.Application": "1.0.0",
           "JK.Cube.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -36,6 +40,21 @@
         },
         "compile": {
           "JK.Cube.Api.dll": {}
+        }
+      },
+      "AutoMapper/8.1.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "8.1.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
       "LiteDB/4.1.4": {
@@ -290,6 +309,14 @@
           "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
         }
       },
+      "JK.Core.Architecture.CQRS/1.0.0": {
+        "runtime": {
+          "JK.Core.Architecture.CQRS.dll": {}
+        },
+        "compile": {
+          "JK.Core.Architecture.CQRS.dll": {}
+        }
+      },
       "JK.Core.Architecture.DDD/1.0.0": {
         "runtime": {
           "JK.Core.Architecture.DDD.dll": {}
@@ -298,12 +325,40 @@
           "JK.Core.Architecture.DDD.dll": {}
         }
       },
+      "JK.Core.Architecture.EDA/1.0.0": {
+        "dependencies": {
+          "JK.Core.Architecture.IoC": "1.0.0"
+        },
+        "runtime": {
+          "JK.Core.Architecture.EDA.dll": {}
+        },
+        "compile": {
+          "JK.Core.Architecture.EDA.dll": {}
+        }
+      },
       "JK.Core.Architecture.IoC/1.0.0": {
         "runtime": {
           "JK.Core.Architecture.IoC.dll": {}
         },
         "compile": {
           "JK.Core.Architecture.IoC.dll": {}
+        }
+      },
+      "JK.Cube.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "8.1.0",
+          "JK.Core.Architecture.CQRS": "1.0.0",
+          "JK.Core.Architecture.DDD": "1.0.0",
+          "JK.Core.Architecture.EDA": "1.0.0",
+          "JK.Core.Architecture.IoC": "1.0.0",
+          "JK.Cube.Domain": "1.0.0",
+          "LiteDB": "4.1.4"
+        },
+        "runtime": {
+          "JK.Cube.Application.dll": {}
+        },
+        "compile": {
+          "JK.Cube.Application.dll": {}
         }
       },
       "JK.Cube.Domain/1.0.0": {
@@ -3278,6 +3333,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
+      "path": "automapper/8.1.0",
+      "hashPath": "automapper.8.1.0.nupkg.sha512"
+    },
     "LiteDB/4.1.4": {
       "type": "package",
       "serviceable": true,
@@ -3369,12 +3431,27 @@
       "path": "swashbuckle.aspnetcore.swaggerui/4.0.1",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.4.0.1.nupkg.sha512"
     },
+    "JK.Core.Architecture.CQRS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "JK.Core.Architecture.DDD/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
+    "JK.Core.Architecture.EDA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "JK.Core.Architecture.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JK.Cube.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

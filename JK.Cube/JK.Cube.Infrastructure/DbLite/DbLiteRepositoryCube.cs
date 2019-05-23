@@ -14,9 +14,12 @@ namespace JK.Cube.Infrastructure.DbLite
             _dbLiteConfig = dbLiteConfig;
         }
 
-        public Domain.Models.Cube Delete(string id)
+        public bool Delete(string id)
         {
-            throw new NotImplementedException();
+            using (var db = new LiteDatabase(_dbLiteConfig.ConnectioString))
+            {
+                return db.GetCollection<Domain.Models.Cube>().Delete(it => it.Id == id) > 0;
+            }
         }
 
         public IEnumerable<Domain.Models.Cube> GetAll()

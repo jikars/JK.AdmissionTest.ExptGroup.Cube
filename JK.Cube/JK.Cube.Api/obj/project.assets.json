@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "AutoMapper/8.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
       "LiteDB/4.1.4": {
         "type": "package",
         "dependencies": {
@@ -4404,6 +4417,16 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "JK.Core.Architecture.CQRS/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/JK.Core.Architecture.CQRS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JK.Core.Architecture.CQRS.dll": {}
+        }
+      },
       "JK.Core.Architecture.DDD/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4414,6 +4437,19 @@
           "bin/placeholder/JK.Core.Architecture.DDD.dll": {}
         }
       },
+      "JK.Core.Architecture.EDA/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "JK.Core.Architecture.IoC": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JK.Core.Architecture.EDA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JK.Core.Architecture.EDA.dll": {}
+        }
+      },
       "JK.Core.Architecture.IoC/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -4422,6 +4458,25 @@
         },
         "runtime": {
           "bin/placeholder/JK.Core.Architecture.IoC.dll": {}
+        }
+      },
+      "JK.Cube.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "AutoMapper": "8.1.0",
+          "JK.Core.Architecture.CQRS": "1.0.0",
+          "JK.Core.Architecture.DDD": "1.0.0",
+          "JK.Core.Architecture.EDA": "1.0.0",
+          "JK.Core.Architecture.IoC": "1.0.0",
+          "JK.Cube.Domain": "1.0.0",
+          "LiteDB": "4.1.4"
+        },
+        "compile": {
+          "bin/placeholder/JK.Cube.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JK.Cube.Application.dll": {}
         }
       },
       "JK.Cube.Domain/1.0.0": {
@@ -4455,6 +4510,23 @@
     }
   },
   "libraries": {
+    "AutoMapper/8.1.0": {
+      "sha512": "Go75WXHE7p/8CtRaxZnvVEfcSh7xpE6zx9wkgN4I1BxvlzP0hoiTLHSXDYXgv9CoxaRj4ahwzCA/iwdpvyQyOA==",
+      "type": "package",
+      "path": "automapper/8.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.8.1.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "LiteDB/4.1.4": {
       "sha512": "g4g9JlHzRBZl+Gd2UbiRdszZ7t8wozU2wX7+5xY5uE79tmcgcDhha+ubAP84G1VLbwQmhBGCzRfIx+epLmJciQ==",
       "type": "package",
@@ -11970,15 +12042,30 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "JK.Core.Architecture.CQRS/1.0.0": {
+      "type": "project",
+      "path": "../JK.Cores/JK.Core.Architecture.CQRS/JK.Core.Architecture.CQRS.csproj",
+      "msbuildProject": "../JK.Cores/JK.Core.Architecture.CQRS/JK.Core.Architecture.CQRS.csproj"
+    },
     "JK.Core.Architecture.DDD/1.0.0": {
       "type": "project",
       "path": "../JK.Cores/JK.Core.Architecture.DDD/JK.Core.Architecture.DDD.csproj",
       "msbuildProject": "../JK.Cores/JK.Core.Architecture.DDD/JK.Core.Architecture.DDD.csproj"
     },
+    "JK.Core.Architecture.EDA/1.0.0": {
+      "type": "project",
+      "path": "../JK.Cores/JK.Core.Architecture.EDA/JK.Core.Architecture.EDA.csproj",
+      "msbuildProject": "../JK.Cores/JK.Core.Architecture.EDA/JK.Core.Architecture.EDA.csproj"
+    },
     "JK.Core.Architecture.IoC/1.0.0": {
       "type": "project",
       "path": "../JK.Cores/JK.Core.Architecture.IoC/JK.Core.Architecture.IoC.csproj",
       "msbuildProject": "../JK.Cores/JK.Core.Architecture.IoC/JK.Core.Architecture.IoC.csproj"
+    },
+    "JK.Cube.Application/1.0.0": {
+      "type": "project",
+      "path": "../JK.Cube.Application/JK.Cube.Application.csproj",
+      "msbuildProject": "../JK.Cube.Application/JK.Cube.Application.csproj"
     },
     "JK.Cube.Domain/1.0.0": {
       "type": "project",
@@ -11993,7 +12080,11 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "AutoMapper >= 8.1.0",
+      "JK.Core.Architecture.CQRS >= 1.0.0",
+      "JK.Core.Architecture.EDA >= 1.0.0",
       "JK.Core.Architecture.IoC >= 1.0.0",
+      "JK.Cube.Application >= 1.0.0",
       "JK.Cube.Infrastructure >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -12034,8 +12125,17 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.CQRS\\JK.Core.Architecture.CQRS.csproj": {
+              "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.CQRS\\JK.Core.Architecture.CQRS.csproj"
+            },
+            "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.EDA\\JK.Core.Architecture.EDA.csproj": {
+              "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.EDA\\JK.Core.Architecture.EDA.csproj"
+            },
             "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.IoC\\JK.Core.Architecture.IoC.csproj": {
               "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cores\\JK.Core.Architecture.IoC\\JK.Core.Architecture.IoC.csproj"
+            },
+            "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Application\\JK.Cube.Application.csproj": {
+              "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Application\\JK.Cube.Application.csproj"
             },
             "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj": {
               "projectPath": "D:\\PruebaTecnica\\JK.Cube\\JK.Cube.Infrastructure\\JK.Cube.Infrastructure.csproj"
@@ -12052,6 +12152,10 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[8.1.0, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

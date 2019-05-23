@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="4.1.4" />
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.CQRS\JK.Core.Architecture.CQRS.csproj" />
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.DDD\JK.Core.Architecture.DDD.csproj" />
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.EDA\JK.Core.Architecture.EDA.csproj" />
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.IoC\JK.Core.Architecture.IoC.csproj" />
+    <ProjectReference Include="..\JK.Cube.Domain\JK.Cube.Domain.csproj" />
+  </ItemGroup>
 </Project>

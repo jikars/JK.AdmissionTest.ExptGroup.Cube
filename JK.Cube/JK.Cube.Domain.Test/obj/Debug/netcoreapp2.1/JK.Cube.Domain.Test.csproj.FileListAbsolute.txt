@@ -1,7 +1,3 @@
-D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.csprojAssemblyReference.cache
-D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.csproj.CoreCompileInputs.cache
-D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.AssemblyInfoInputs.cache
-D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.AssemblyInfo.cs
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -14,6 +10,10 @@ D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\JK.Core.Arc
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\JK.Cube.Domain.dll
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\JK.Cube.Domain.pdb
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\bin\Debug\netcoreapp2.1\JK.Core.Architecture.DDD.pdb
+D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.csprojAssemblyReference.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.csproj.CoreCompileInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.AssemblyInfoInputs.cache
+D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.AssemblyInfo.cs
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.csproj.CopyComplete
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.dll
 D:\PruebaTecnica\JK.Cube\JK.Cube.Domain.Test\obj\Debug\netcoreapp2.1\JK.Cube.Domain.Test.pdb

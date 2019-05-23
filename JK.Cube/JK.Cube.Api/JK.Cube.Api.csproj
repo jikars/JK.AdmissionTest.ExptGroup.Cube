@@ -13,13 +13,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.CQRS\JK.Core.Architecture.CQRS.csproj" />
+    <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.EDA\JK.Core.Architecture.EDA.csproj" />
     <ProjectReference Include="..\JK.Cores\JK.Core.Architecture.IoC\JK.Core.Architecture.IoC.csproj" />
+    <ProjectReference Include="..\JK.Cube.Application\JK.Cube.Application.csproj" />
     <ProjectReference Include="..\JK.Cube.Infrastructure\JK.Cube.Infrastructure.csproj" />
   </ItemGroup>
 

@@ -5,5 +5,4 @@
     <AssemblyName>JK.Core.Architecture.DDD</AssemblyName>
     <RootNamespace>JK.Core.Architecture.DDD</RootNamespace>
   </PropertyGroup>
-
 </Project>

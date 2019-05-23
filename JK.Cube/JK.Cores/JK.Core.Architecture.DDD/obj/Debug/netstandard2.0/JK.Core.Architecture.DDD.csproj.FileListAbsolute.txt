@@ -15,4 +15,3 @@ D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.DDD\obj\Debug\netstandard
 D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.DDD\obj\Debug\netstandard2.0\JK.Core.Architecture.DDD.AssemblyInfo.cs
 D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.DDD\obj\Debug\netstandard2.0\JK.Core.Architecture.DDD.dll
 D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.DDD\obj\Debug\netstandard2.0\JK.Core.Architecture.DDD.pdb
-D:\PruebaTecnica\JK.Cube\JK.Cores\JK.Core.Architecture.DDD\obj\Debug\netstandard2.0\JK.Core.Architecture.DDD.csprojAssemblyReference.cache

@@ -8,7 +8,7 @@ namespace JK.Core.Architecture.DDD.Persistence
     {
         TAggregateRoot Insert(TAggregateRoot aggregateRoot);
         TAggregateRoot Update(TAggregateRoot aggregateRoot);
-        TAggregateRoot Delete(string id);
+        bool Delete(string id);
         TAggregateRoot GetById(string id);
         IEnumerable<TAggregateRoot> GetAll();
     }

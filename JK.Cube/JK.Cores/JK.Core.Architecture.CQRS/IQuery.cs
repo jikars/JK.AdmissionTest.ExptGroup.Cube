@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
+﻿using System.Collections.Generic;
 
 namespace JK.Core.Architecture.CQRS
 {
-    public interface IQuery<TProjection> where TProjection : IProjection
+    public interface IQuery<in TCondition, out TProjection, out TResult> where TProjection : IProjection where TCondition : ICondition
     {
         TProjection GetById(string id);
-        IEnumerable<TProjection> GetByFillter(Expression<Func<TProjection, bool>> expression);
-        TProjection GetFirts(Expression<Func<TProjection, bool>> expression);
+        IEnumerable<TProjection> GetAll();
+        TResult GetCondition(TCondition condition);
     }
 }
